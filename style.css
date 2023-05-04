@@ -126,6 +126,21 @@ body {
     }
 }
 
+.submit {
+    background-color: #596D48;
+    color: white;
+    margin: 0 0 24px 60px;
+    padding: 12px;
+    border-radius: 8px;
+    border-style: none;
+    box-shadow: 2px 2px 4px gray;
+}
+
+.login {
+    margin: 0 0 24px 24px;
+    font-size: 0.8rem;
+}
+
 @media (max-width: 390px) {
     .transparent-title {
         opacity: 1;
