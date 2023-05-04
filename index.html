@@ -31,28 +31,27 @@
         </h2>
         <form class="basic-form">
             <fieldset class="form-controls">
-                <legend>Let's do this!</legend>
+                <legend id="legend">Let's do this!</legend>
                 <div>
                     <label for="fname">FIRST NAME</label><br>
                     <input type="text" name="fname" id="fname"><br>
-                    <label for="email">EMAIL</label><br>
-                    <input type="email" name="email" id="email"><br>
-                    <label for="pass">PASSWORD</label><br>
-                    <input type="password" name="pass" id="pass">
+                    <label for="email">EMAIL<sup>*</sup></label><br>
+                    <input type="email" name="email" id="email" required><br>
+                    <label for="pass">PASSWORD<sup>*</sup></label><br>
+                    <input type="password" name="pass" id="pass" required minlength="4">
                 </div>
                 <div>
                     <label for="lname">LAST NAME</label><br>
                     <input type="text" name="lname" id="lname"><br>
                     <label for="phone">PHONE NUMBER</label><br>
                     <input type="tel" name="phone" id="phone"><br>
-                    <label for="confirm-pass">CONFIRM PASSWORD</label><br>
-                    <input type="password" name="confirm-pass" id="confirm-pass">
+                    <label for="confirm-pass">CONFIRM PASSWORD<sup>*</sup></label><br>
+                    <input type="password" name="confirm-pass" id="confirm-pass" required minlength="4">
                 </div>
             </fieldset>
             <input class="submit" type="submit" value="Create Account">
-            <p class="login">Already have an account? <a href="https://github.com/TommyJu/sign-up-form" target="_blank">Log in</a></p>
+            <p class="login">Already have an account? <a href="https://www.youtube.com/watch?v=o-YBDTqX_ZU" target="_blank">Log in</a></p>
         </form>
-
     </div>
     <script src="script.js"></script>
 </body>
