@@ -137,12 +137,6 @@ body {
     border-color: lightgray;
 }
 
-@media (min-width: 500px) {
-    html {
-        font-size: 24px;
-    }
-}
-
 .form-controls > div input:focus {
     border-color: lightskyblue;
 }
@@ -164,12 +158,14 @@ body {
 }
 
 @media (max-width: 390px) {
-    .transparent-title {
-        opacity: 1;
-    }
-
     .overlay-text {
         font-size: 60px;
     }
 
+}
+
+@media (min-width: 500px) {
+    html {
+        font-size: 24px;
+    }
 }
